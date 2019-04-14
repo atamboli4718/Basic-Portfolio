@@ -1,0 +1,11 @@
+body {
+    background-image: url(../background_morocco/morocco.png)
+}
+.content {
+    width: 960px;
+    background-color: white;
+    left: 10%;
+    top:110px;
+    position: fixed;
+    padding: 20px;
+}
