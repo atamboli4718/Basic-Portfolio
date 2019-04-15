@@ -11,7 +11,7 @@ body {
     display: inline-block;
 }
 .name {
-    font-family: serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 35px;
     position: absolute;
     left: 10%;
@@ -28,6 +28,9 @@ nav {
     position: relative;
     display: inline-block;
     text-align: right;
+}
+.aboutmehead {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .portfolio {
     position: relative;
@@ -46,5 +49,8 @@ nav {
     padding: 20px;
     display: inline;
     margin: auto;
-
+}
+.class {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 
 }
