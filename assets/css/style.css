@@ -2,33 +2,49 @@ body {
     background-image: url(../background_morocco/morocco.png);
     margin: 0px;
 }
-.content {
-    width: 960px;
+.all {
     background-color: white;
-    left: 10%;
-    top:131px;
-    position: absolute;
-    padding: 20px;
-}
-.top {
-    background-color: white;
-    padding: 0px;
+    padding: 63px;
     border-bottom: 5px solid gray;
-    height: 10%;    
+    position: relative;  
+    width: 100%;
+    display: inline-block;
 }
 .name {
     font-family: serif;
     font-size: 35px;
     position: absolute;
     left: 10%;
+    display: inline;
+    bottom: 5px;
+}
+nav {
+    float: right;
+    margin-right: 55px;
+    bottom: 5px;
+    position: relative;
 }
 .about {
     position: relative;
-    
+    display: inline-block;
+    text-align: right;
 }
 .portfolio {
     position: relative;
+    display: inline-block;
+    text-align: right;
 }
 .contact {
     position: relative;
+    display: inline-block;
+    text-align: right;
+}
+.content {
+    width: 960px;
+    background-color: white;
+    position: absolute;
+    padding: 20px;
+    display: inline;
+    margin: auto;
+
 }
