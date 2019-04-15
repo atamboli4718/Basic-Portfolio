@@ -1,56 +1,79 @@
 body {
     background-image: url(../background_morocco/morocco.png);
     margin: 0px;
+    position: relative
 }
-.all {
+.top {
     background-color: white;
-    padding: 63px;
+    height: 80px;
     border-bottom: 5px solid gray;
     position: relative;  
     width: 100%;
     display: inline-block;
-}
-.name {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 35px;
-    position: absolute;
-    left: 10%;
-    display: inline;
-    bottom: 5px;
+    margin: auto;
 }
 nav {
-    float: right;
     margin-right: 55px;
+    position: absolute;
     bottom: 5px;
-    position: relative;
+    right: 79px;
 }
 .about {
     position: relative;
     display: inline-block;
-    text-align: right;
-}
-.aboutmehead {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-right: 2px solid gray;
+    width: 60px;
+    height: 30px;
+    vertical-align: middle;
 }
 .portfolio {
     position: relative;
     display: inline-block;
-    text-align: right;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-right: 2px solid gray;
+    width: 69px;
+    height: 30px;
+    vertical-align: middle;
 }
 .contact {
     position: relative;
     display: inline-block;
-    text-align: right;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 62px;
+    height: 30px;
+    vertical-align: middle;
 }
-.content {
+.name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    top: 7px;
+    left: 10%;
+    display: inline;
+    background-color: rgb(175,219,229);
+    padding: 5px;
+}
+.picofme {
+    float: left;
+    padding: 0px 20px 10px 0px;
+}
+.aboutcontent {
     width: 960px;
     background-color: white;
-    position: absolute;
+    position:relative;
     padding: 20px;
-    display: inline;
     margin: auto;
 }
-.class {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 
+.aboutmehead {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.aboutmecontent {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
