@@ -1,7 +1,11 @@
 body {
     background-image: url(../background_morocco/morocco.png);
     margin: 0px;
-    position: relative
+    position: relative;
+    height: 100%;
+}
+.master {
+    height: 100%;
 }
 .top {
     background-color: white;
@@ -52,11 +56,21 @@ nav {
     font-size: 35px;
     color: white;
     position: absolute;
-    top: 7px;
+    top: 8px;
     left: 10%;
     display: inline;
     background-color: rgb(175,219,229);
     padding: 5px;
+}
+.footer {
+    height: 50px;
+    background-color: darkgray;
+    border-top: 10px solid rgb(175,219,229);
+    text-align: center;
+    text-size-adjust: auto;
+    position: relative;
+    width: 100%;
+    bottom: 0px;
 }
 .picofme {
     float: left;
@@ -69,6 +83,8 @@ nav {
     padding: 20px;
     margin: auto;
     color: darkslategray;
+    margin-top:20px; 
+    margin-bottom: 30px;
 }
 .aboutmehead {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -84,6 +100,8 @@ nav {
     position:relative;
     padding: 20px;
     margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 .portfoliohead {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -202,10 +220,13 @@ nav {
 }
 .contactcontent {
     width: 960px;
+    height: 100%;
     background-color: white;
     position:relative;
     padding: 20px;
     margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 .contacthead {
     font-family: Georgia, 'Times New Roman', Times, serif;
