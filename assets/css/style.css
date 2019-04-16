@@ -200,3 +200,32 @@ nav {
     position: relative;
     padding: 10px 0px 0px;
 }
+.contactcontent {
+    width: 960px;
+    background-color: white;
+    position:relative;
+    padding: 20px;
+    margin: auto;
+}
+.contacthead {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(175,219,229);
+    border-bottom: solid 2px gray
+}
+.contactmename {
+    position: inline;
+    color: darkslategray;
+}
+.contactmeemail {
+    position: inline;
+    color: darkslategray;
+}
+.contactmemessage {
+    position: inline;
+    color: darkslategray;
+}
+
+/** thsi isn't working :(
+.contactmesubmit {
+    border-radius: 50%;
+}
