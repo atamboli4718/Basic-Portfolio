@@ -28,9 +28,11 @@ nav {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     border-right: 2px solid gray;
-    width: 60px;
-    height: 30px;
-    vertical-align: middle;
+    width: 55px;
+    height: auto;
+    color: darkgray;
+    font-family: helvetica;
+    text-decoration: none;
 }
 .portfolio {
     position: relative;
@@ -38,18 +40,23 @@ nav {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     border-right: 2px solid gray;
-    width: 69px;
-    height: 30px;
-    vertical-align: middle;
+    width: 63px;
+    height: auto;
+    color: darkgray;
+    font-family: helvetica;
+    text-decoration: none;
 }
 .contact {
     position: relative;
     display: inline-block;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    width: 62px;
-    height: 30px;
-    vertical-align: middle;
+    width: 60px;
+    height: auto;
+    color: darkgray;
+    font-family: helvetica;
+    text-decoration: none;
+    align-content: center;
 }
 .name {
     font-family: Georgia, 'Times New Roman', Times, serif;
