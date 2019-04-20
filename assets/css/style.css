@@ -11,10 +11,12 @@ body {
     background-color: white;
     height: 80px;
     border-bottom: 5px solid gray;
-    position: relative;  
+    position: fixed;  
+    top: 0;
     width: 100%;
     display: inline-block;
     margin: auto;
+    z-index: 100;
 }
 nav {
     margin-right: 55px;
@@ -75,9 +77,10 @@ nav {
     border-top: 10px solid rgb(175,219,229);
     text-align: center;
     text-size-adjust: auto;
-    position: relative;
+    position: fixed;
     width: 100%;
     bottom: 0px;
+    margin-top: 30px;
 }
 .picofme {
     float: left;
@@ -91,7 +94,8 @@ nav {
     margin: auto;
     color: darkslategray;
     margin-top:20px; 
-    margin-bottom: 30px;
+    margin-bottom: 75px;
+    top: 75px;
 }
 .aboutmehead {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -100,6 +104,7 @@ nav {
 }
 .aboutmecontent {
     font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
 }
 .portfoliocontent {
     width: 960px;
@@ -108,7 +113,8 @@ nav {
     padding: 20px;
     margin: auto;
     margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 75px;
+    top: 75px;
 }
 .portfoliohead {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -233,7 +239,8 @@ nav {
     padding: 20px;
     margin: auto;
     margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 75px;
+    top: 75px;
 }
 .contacthead {
     font-family: Georgia, 'Times New Roman', Times, serif;
